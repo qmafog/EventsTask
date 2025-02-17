@@ -1,0 +1,1091 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A230DC93-B414-47E7-918A-567303611FEF}|EventsTask.Backend\\EventsTask.Backend.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.backend\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A230DC93-B414-47E7-918A-567303611FEF}|EventsTask.Backend\\EventsTask.Backend.csproj|solutionrelative:eventstask.backend\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF234E7E-B267-4D4B-920D-4198C916AC77}|EventsTask.Persistence\\EventsTask.Persistence.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.persistence\\eventsdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF234E7E-B267-4D4B-920D-4198C916AC77}|EventsTask.Persistence\\EventsTask.Persistence.csproj|solutionrelative:eventstask.persistence\\eventsdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A230DC93-B414-47E7-918A-567303611FEF}|EventsTask.Backend\\EventsTask.Backend.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A230DC93-B414-47E7-918A-567303611FEF}|EventsTask.Backend\\EventsTask.Backend.csproj|solutionrelative:eventstask.backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A230DC93-B414-47E7-918A-567303611FEF}|EventsTask.Backend\\EventsTask.Backend.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.backend\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A230DC93-B414-47E7-918A-567303611FEF}|EventsTask.Backend\\EventsTask.Backend.csproj|solutionrelative:eventstask.backend\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A230DC93-B414-47E7-918A-567303611FEF}|EventsTask.Backend\\EventsTask.Backend.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.backend\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A230DC93-B414-47E7-918A-567303611FEF}|EventsTask.Backend\\EventsTask.Backend.csproj|solutionrelative:eventstask.backend\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.application\\services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|solutionrelative:eventstask.application\\services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87BC321C-4351-472D-A372-CF47771C0082}|Events.Tests\\Events.Tests.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\events.tests\\common\\eventstestfixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87BC321C-4351-472D-A372-CF47771C0082}|Events.Tests\\Events.Tests.csproj|solutionrelative:events.tests\\common\\eventstestfixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87BC321C-4351-472D-A372-CF47771C0082}|Events.Tests\\Events.Tests.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\events.tests\\common\\eventscontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87BC321C-4351-472D-A372-CF47771C0082}|Events.Tests\\Events.Tests.csproj|solutionrelative:events.tests\\common\\eventscontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87BC321C-4351-472D-A372-CF47771C0082}|Events.Tests\\Events.Tests.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\events.tests\\events\\eventmembersevicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87BC321C-4351-472D-A372-CF47771C0082}|Events.Tests\\Events.Tests.csproj|solutionrelative:events.tests\\events\\eventmembersevicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87BC321C-4351-472D-A372-CF47771C0082}|Events.Tests\\Events.Tests.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\events.tests\\events\\eventservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87BC321C-4351-472D-A372-CF47771C0082}|Events.Tests\\Events.Tests.csproj|solutionrelative:events.tests\\events\\eventservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.application\\common\\dtos\\registereventmemberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|solutionrelative:eventstask.application\\common\\dtos\\registereventmemberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.application\\common\\dtos\\updateeventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|solutionrelative:eventstask.application\\common\\dtos\\updateeventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.application\\common\\mapping\\eventsmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|solutionrelative:eventstask.application\\common\\mapping\\eventsmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.application\\common\\mapping\\eventservicemappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|solutionrelative:eventstask.application\\common\\mapping\\eventservicemappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.application\\common\\validators\\registermemberdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|solutionrelative:eventstask.application\\common\\validators\\registermemberdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.application\\common\\validators\\eventvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|solutionrelative:eventstask.application\\common\\validators\\eventvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.application\\common\\validators\\eventmembervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|solutionrelative:eventstask.application\\common\\validators\\eventmembervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.application\\interfaces\\ieventmembersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|solutionrelative:eventstask.application\\interfaces\\ieventmembersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.application\\interfaces\\ieventsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|solutionrelative:eventstask.application\\interfaces\\ieventsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.application\\interfaces\\ieventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|solutionrelative:eventstask.application\\interfaces\\ieventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.application\\interfaces\\ijwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|solutionrelative:eventstask.application\\interfaces\\ijwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.application\\interfaces\\ieventsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|solutionrelative:eventstask.application\\interfaces\\ieventsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.application\\interfaces\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|solutionrelative:eventstask.application\\interfaces\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.application\\interfaces\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|solutionrelative:eventstask.application\\interfaces\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|solutionrelative:eventstask.application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.application\\interfaces\\iusersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|solutionrelative:eventstask.application\\interfaces\\iusersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.application\\services\\eventmemberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|solutionrelative:eventstask.application\\services\\eventmemberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.application\\services\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|solutionrelative:eventstask.application\\services\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.application\\services\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|solutionrelative:eventstask.application\\services\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|solutionrelative:eventstask.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A230DC93-B414-47E7-918A-567303611FEF}|EventsTask.Backend\\EventsTask.Backend.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A230DC93-B414-47E7-918A-567303611FEF}|EventsTask.Backend\\EventsTask.Backend.csproj|solutionrelative:eventstask.backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A230DC93-B414-47E7-918A-567303611FEF}|EventsTask.Backend\\EventsTask.Backend.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.backend\\controllers\\eventmemberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A230DC93-B414-47E7-918A-567303611FEF}|EventsTask.Backend\\EventsTask.Backend.csproj|solutionrelative:eventstask.backend\\controllers\\eventmemberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A230DC93-B414-47E7-918A-567303611FEF}|EventsTask.Backend\\EventsTask.Backend.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.backend\\extensions\\apiextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A230DC93-B414-47E7-918A-567303611FEF}|EventsTask.Backend\\EventsTask.Backend.csproj|solutionrelative:eventstask.backend\\extensions\\apiextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A230DC93-B414-47E7-918A-567303611FEF}|EventsTask.Backend\\EventsTask.Backend.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.backend\\middlewares\\exceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A230DC93-B414-47E7-918A-567303611FEF}|EventsTask.Backend\\EventsTask.Backend.csproj|solutionrelative:eventstask.backend\\middlewares\\exceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A230DC93-B414-47E7-918A-567303611FEF}|EventsTask.Backend\\EventsTask.Backend.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A230DC93-B414-47E7-918A-567303611FEF}|EventsTask.Backend\\EventsTask.Backend.csproj|solutionrelative:eventstask.backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62EAAF1F-F4CC-44F3-B1AC-3FDDD0504B0D}|EventsTask.Domain\\EventsTask.Domain.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.domain\\entities\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62EAAF1F-F4CC-44F3-B1AC-3FDDD0504B0D}|EventsTask.Domain\\EventsTask.Domain.csproj|solutionrelative:eventstask.domain\\entities\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62EAAF1F-F4CC-44F3-B1AC-3FDDD0504B0D}|EventsTask.Domain\\EventsTask.Domain.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.domain\\entities\\roleentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62EAAF1F-F4CC-44F3-B1AC-3FDDD0504B0D}|EventsTask.Domain\\EventsTask.Domain.csproj|solutionrelative:eventstask.domain\\entities\\roleentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62EAAF1F-F4CC-44F3-B1AC-3FDDD0504B0D}|EventsTask.Domain\\EventsTask.Domain.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.domain\\entities\\eventmemberentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62EAAF1F-F4CC-44F3-B1AC-3FDDD0504B0D}|EventsTask.Domain\\EventsTask.Domain.csproj|solutionrelative:eventstask.domain\\entities\\eventmemberentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62EAAF1F-F4CC-44F3-B1AC-3FDDD0504B0D}|EventsTask.Domain\\EventsTask.Domain.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.domain\\entities\\evententity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62EAAF1F-F4CC-44F3-B1AC-3FDDD0504B0D}|EventsTask.Domain\\EventsTask.Domain.csproj|solutionrelative:eventstask.domain\\entities\\evententity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{009DB96B-0AE2-4F97-A1FB-6015DF1368E2}|EventsTask.Infrastructure\\EventsTask.Infrastructure.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.infrastructure\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{009DB96B-0AE2-4F97-A1FB-6015DF1368E2}|EventsTask.Infrastructure\\EventsTask.Infrastructure.csproj|solutionrelative:eventstask.infrastructure\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{009DB96B-0AE2-4F97-A1FB-6015DF1368E2}|EventsTask.Infrastructure\\EventsTask.Infrastructure.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.infrastructure\\jwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{009DB96B-0AE2-4F97-A1FB-6015DF1368E2}|EventsTask.Infrastructure\\EventsTask.Infrastructure.csproj|solutionrelative:eventstask.infrastructure\\jwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{009DB96B-0AE2-4F97-A1FB-6015DF1368E2}|EventsTask.Infrastructure\\EventsTask.Infrastructure.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.infrastructure\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{009DB96B-0AE2-4F97-A1FB-6015DF1368E2}|EventsTask.Infrastructure\\EventsTask.Infrastructure.csproj|solutionrelative:eventstask.infrastructure\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF234E7E-B267-4D4B-920D-4198C916AC77}|EventsTask.Persistence\\EventsTask.Persistence.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.persistence\\entitytypeconfigurations\\evententityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF234E7E-B267-4D4B-920D-4198C916AC77}|EventsTask.Persistence\\EventsTask.Persistence.csproj|solutionrelative:eventstask.persistence\\entitytypeconfigurations\\evententityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF234E7E-B267-4D4B-920D-4198C916AC77}|EventsTask.Persistence\\EventsTask.Persistence.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.persistence\\repositories\\eventmembersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF234E7E-B267-4D4B-920D-4198C916AC77}|EventsTask.Persistence\\EventsTask.Persistence.csproj|solutionrelative:eventstask.persistence\\repositories\\eventmembersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF234E7E-B267-4D4B-920D-4198C916AC77}|EventsTask.Persistence\\EventsTask.Persistence.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.persistence\\repositories\\eventsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF234E7E-B267-4D4B-920D-4198C916AC77}|EventsTask.Persistence\\EventsTask.Persistence.csproj|solutionrelative:eventstask.persistence\\repositories\\eventsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF234E7E-B267-4D4B-920D-4198C916AC77}|EventsTask.Persistence\\EventsTask.Persistence.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.persistence\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF234E7E-B267-4D4B-920D-4198C916AC77}|EventsTask.Persistence\\EventsTask.Persistence.csproj|solutionrelative:eventstask.persistence\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF234E7E-B267-4D4B-920D-4198C916AC77}|EventsTask.Persistence\\EventsTask.Persistence.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.persistence\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF234E7E-B267-4D4B-920D-4198C916AC77}|EventsTask.Persistence\\EventsTask.Persistence.csproj|solutionrelative:eventstask.persistence\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF234E7E-B267-4D4B-920D-4198C916AC77}|EventsTask.Persistence\\EventsTask.Persistence.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.persistence\\eventsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF234E7E-B267-4D4B-920D-4198C916AC77}|EventsTask.Persistence\\EventsTask.Persistence.csproj|solutionrelative:eventstask.persistence\\eventsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.application\\common\\dtos\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|solutionrelative:eventstask.application\\common\\dtos\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62EAAF1F-F4CC-44F3-B1AC-3FDDD0504B0D}|EventsTask.Domain\\EventsTask.Domain.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.domain\\enums\\eventcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62EAAF1F-F4CC-44F3-B1AC-3FDDD0504B0D}|EventsTask.Domain\\EventsTask.Domain.csproj|solutionrelative:eventstask.domain\\enums\\eventcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62EAAF1F-F4CC-44F3-B1AC-3FDDD0504B0D}|EventsTask.Domain\\EventsTask.Domain.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.domain\\enums\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62EAAF1F-F4CC-44F3-B1AC-3FDDD0504B0D}|EventsTask.Domain\\EventsTask.Domain.csproj|solutionrelative:eventstask.domain\\enums\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62EAAF1F-F4CC-44F3-B1AC-3FDDD0504B0D}|EventsTask.Domain\\EventsTask.Domain.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.domain\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62EAAF1F-F4CC-44F3-B1AC-3FDDD0504B0D}|EventsTask.Domain\\EventsTask.Domain.csproj|solutionrelative:eventstask.domain\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62EAAF1F-F4CC-44F3-B1AC-3FDDD0504B0D}|EventsTask.Domain\\EventsTask.Domain.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.domain\\models\\eventmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62EAAF1F-F4CC-44F3-B1AC-3FDDD0504B0D}|EventsTask.Domain\\EventsTask.Domain.csproj|solutionrelative:eventstask.domain\\models\\eventmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62EAAF1F-F4CC-44F3-B1AC-3FDDD0504B0D}|EventsTask.Domain\\EventsTask.Domain.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62EAAF1F-F4CC-44F3-B1AC-3FDDD0504B0D}|EventsTask.Domain\\EventsTask.Domain.csproj|solutionrelative:eventstask.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF234E7E-B267-4D4B-920D-4198C916AC77}|EventsTask.Persistence\\EventsTask.Persistence.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.persistence\\entitytypeconfigurations\\eventmemberentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF234E7E-B267-4D4B-920D-4198C916AC77}|EventsTask.Persistence\\EventsTask.Persistence.csproj|solutionrelative:eventstask.persistence\\entitytypeconfigurations\\eventmemberentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF234E7E-B267-4D4B-920D-4198C916AC77}|EventsTask.Persistence\\EventsTask.Persistence.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.persistence\\entitytypeconfigurations\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF234E7E-B267-4D4B-920D-4198C916AC77}|EventsTask.Persistence\\EventsTask.Persistence.csproj|solutionrelative:eventstask.persistence\\entitytypeconfigurations\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF234E7E-B267-4D4B-920D-4198C916AC77}|EventsTask.Persistence\\EventsTask.Persistence.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.persistence\\entitytypeconfigurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF234E7E-B267-4D4B-920D-4198C916AC77}|EventsTask.Persistence\\EventsTask.Persistence.csproj|solutionrelative:eventstask.persistence\\entitytypeconfigurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF234E7E-B267-4D4B-920D-4198C916AC77}|EventsTask.Persistence\\EventsTask.Persistence.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.persistence\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF234E7E-B267-4D4B-920D-4198C916AC77}|EventsTask.Persistence\\EventsTask.Persistence.csproj|solutionrelative:eventstask.persistence\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF234E7E-B267-4D4B-920D-4198C916AC77}|EventsTask.Persistence\\EventsTask.Persistence.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.persistence\\migrations\\20250216131351_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF234E7E-B267-4D4B-920D-4198C916AC77}|EventsTask.Persistence\\EventsTask.Persistence.csproj|solutionrelative:eventstask.persistence\\migrations\\20250216131351_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF234E7E-B267-4D4B-920D-4198C916AC77}|EventsTask.Persistence\\EventsTask.Persistence.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.persistence\\migrations\\eventsdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF234E7E-B267-4D4B-920D-4198C916AC77}|EventsTask.Persistence\\EventsTask.Persistence.csproj|solutionrelative:eventstask.persistence\\migrations\\eventsdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF234E7E-B267-4D4B-920D-4198C916AC77}|EventsTask.Persistence\\EventsTask.Persistence.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.persistence\\eventstask.persistence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CF234E7E-B267-4D4B-920D-4198C916AC77}|EventsTask.Persistence\\EventsTask.Persistence.csproj|solutionrelative:eventstask.persistence\\eventstask.persistence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.application\\interfaces\\ieventmemberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|solutionrelative:eventstask.application\\interfaces\\ieventmemberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.application\\common\\dtos\\createeventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|solutionrelative:eventstask.application\\common\\dtos\\createeventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.application\\common\\dtos\\eventmemberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|solutionrelative:eventstask.application\\common\\dtos\\eventmemberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A230DC93-B414-47E7-918A-567303611FEF}|EventsTask.Backend\\EventsTask.Backend.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.backend\\eventstask.backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A230DC93-B414-47E7-918A-567303611FEF}|EventsTask.Backend\\EventsTask.Backend.csproj|solutionrelative:eventstask.backend\\eventstask.backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|e:\\work\\programming\\my projects\\projects from vs\\projects (c#)\\eventstask.backend\\eventstask.application\\eventstask.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2534D905-DD0C-45E8-8381-D1C3EAEBA066}|EventsTask.Application\\EventsTask.Application.csproj|solutionrelative:eventstask.application\\eventstask.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EventMemberSeviceTests.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\Events.Tests\\Events\\EventMemberSeviceTests.cs",
+              "RelativeDocumentMoniker": "Events.Tests\\Events\\EventMemberSeviceTests.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\Events.Tests\\Events\\EventMemberSeviceTests.cs",
+              "RelativeToolTip": "Events.Tests\\Events\\EventMemberSeviceTests.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAlwCAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T15:53:52.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EventServiceTests.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\Events.Tests\\Events\\EventServiceTests.cs",
+              "RelativeDocumentMoniker": "Events.Tests\\Events\\EventServiceTests.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\Events.Tests\\Events\\EventServiceTests.cs",
+              "RelativeToolTip": "Events.Tests\\Events\\EventServiceTests.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAAwIcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T15:53:43.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EventsController.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Backend\\Controllers\\EventsController.cs",
+              "RelativeDocumentMoniker": "EventsTask.Backend\\Controllers\\EventsController.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Backend\\Controllers\\EventsController.cs",
+              "RelativeToolTip": "EventsTask.Backend\\Controllers\\EventsController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAAAE0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T19:43:10.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EventService.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\Services\\EventService.cs",
+              "RelativeDocumentMoniker": "EventsTask.Application\\Services\\EventService.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\Services\\EventService.cs",
+              "RelativeToolTip": "EventsTask.Application\\Services\\EventService.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAADwv00AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T14:03:06.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EventsContextFactory.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\Events.Tests\\Common\\EventsContextFactory.cs",
+              "RelativeDocumentMoniker": "Events.Tests\\Common\\EventsContextFactory.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\Events.Tests\\Common\\EventsContextFactory.cs",
+              "RelativeToolTip": "Events.Tests\\Common\\EventsContextFactory.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAgwDoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T16:56:05.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EventsTestFixture.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\Events.Tests\\Common\\EventsTestFixture.cs",
+              "RelativeDocumentMoniker": "Events.Tests\\Common\\EventsTestFixture.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\Events.Tests\\Common\\EventsTestFixture.cs",
+              "RelativeToolTip": "Events.Tests\\Common\\EventsTestFixture.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwA4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T14:56:41.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Backend\\docker-compose.yml",
+              "RelativeDocumentMoniker": "EventsTask.Backend\\docker-compose.yml",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Backend\\docker-compose.yml",
+              "RelativeToolTip": "EventsTask.Backend\\docker-compose.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-02-14T18:10:40.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Backend\\appsettings.json",
+              "RelativeDocumentMoniker": "EventsTask.Backend\\appsettings.json",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Backend\\appsettings.json",
+              "RelativeToolTip": "EventsTask.Backend\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-08T11:38:48.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EventsDbContextFactory.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Persistence\\EventsDbContextFactory.cs",
+              "RelativeDocumentMoniker": "EventsTask.Persistence\\EventsDbContextFactory.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Persistence\\EventsDbContextFactory.cs*",
+              "RelativeToolTip": "EventsTask.Persistence\\EventsDbContextFactory.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T13:09:35.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Backend\\Dockerfile",
+              "RelativeDocumentMoniker": "EventsTask.Backend\\Dockerfile",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Backend\\Dockerfile",
+              "RelativeToolTip": "EventsTask.Backend\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-08T11:38:37.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RegisterEventMemberDto.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\Common\\Dtos\\RegisterEventMemberDto.cs",
+              "RelativeDocumentMoniker": "EventsTask.Application\\Common\\Dtos\\RegisterEventMemberDto.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\Common\\Dtos\\RegisterEventMemberDto.cs",
+              "RelativeToolTip": "EventsTask.Application\\Common\\Dtos\\RegisterEventMemberDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T14:22:49.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RegisterMemberDtoValidator.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\Common\\Validators\\RegisterMemberDtoValidator.cs",
+              "RelativeDocumentMoniker": "EventsTask.Application\\Common\\Validators\\RegisterMemberDtoValidator.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\Common\\Validators\\RegisterMemberDtoValidator.cs",
+              "RelativeToolTip": "EventsTask.Application\\Common\\Validators\\RegisterMemberDtoValidator.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T10:11:03.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UpdateEventDto.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\Common\\Dtos\\UpdateEventDto.cs",
+              "RelativeDocumentMoniker": "EventsTask.Application\\Common\\Dtos\\UpdateEventDto.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\Common\\Dtos\\UpdateEventDto.cs",
+              "RelativeToolTip": "EventsTask.Application\\Common\\Dtos\\UpdateEventDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T14:21:52.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EventsMappingProfile.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\Common\\Mapping\\EventsMappingProfile.cs",
+              "RelativeDocumentMoniker": "EventsTask.Application\\Common\\Mapping\\EventsMappingProfile.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\Common\\Mapping\\EventsMappingProfile.cs",
+              "RelativeToolTip": "EventsTask.Application\\Common\\Mapping\\EventsMappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T17:36:51.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EventServiceMappingProfile.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\Common\\Mapping\\EventServiceMappingProfile.cs",
+              "RelativeDocumentMoniker": "EventsTask.Application\\Common\\Mapping\\EventServiceMappingProfile.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\Common\\Mapping\\EventServiceMappingProfile.cs",
+              "RelativeToolTip": "EventsTask.Application\\Common\\Mapping\\EventServiceMappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T15:17:45.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EventValidator.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\Common\\Validators\\EventValidator.cs",
+              "RelativeDocumentMoniker": "EventsTask.Application\\Common\\Validators\\EventValidator.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\Common\\Validators\\EventValidator.cs",
+              "RelativeToolTip": "EventsTask.Application\\Common\\Validators\\EventValidator.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T17:49:14.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EventMemberValidator.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\Common\\Validators\\EventMemberValidator.cs",
+              "RelativeDocumentMoniker": "EventsTask.Application\\Common\\Validators\\EventMemberValidator.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\Common\\Validators\\EventMemberValidator.cs",
+              "RelativeToolTip": "EventsTask.Application\\Common\\Validators\\EventMemberValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T17:49:26.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IEventMembersRepository.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\Interfaces\\IEventMembersRepository.cs",
+              "RelativeDocumentMoniker": "EventsTask.Application\\Interfaces\\IEventMembersRepository.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\Interfaces\\IEventMembersRepository.cs",
+              "RelativeToolTip": "EventsTask.Application\\Interfaces\\IEventMembersRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T20:37:02.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IEventsDbContext.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\Interfaces\\IEventsDbContext.cs",
+              "RelativeDocumentMoniker": "EventsTask.Application\\Interfaces\\IEventsDbContext.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\Interfaces\\IEventsDbContext.cs",
+              "RelativeToolTip": "EventsTask.Application\\Interfaces\\IEventsDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T19:51:42.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IEventService.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\Interfaces\\IEventService.cs",
+              "RelativeDocumentMoniker": "EventsTask.Application\\Interfaces\\IEventService.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\Interfaces\\IEventService.cs",
+              "RelativeToolTip": "EventsTask.Application\\Interfaces\\IEventService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T14:02:36.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IJwtProvider.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\Interfaces\\IJwtProvider.cs",
+              "RelativeDocumentMoniker": "EventsTask.Application\\Interfaces\\IJwtProvider.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\Interfaces\\IJwtProvider.cs",
+              "RelativeToolTip": "EventsTask.Application\\Interfaces\\IJwtProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T11:04:09.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IEventsRepository.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\Interfaces\\IEventsRepository.cs",
+              "RelativeDocumentMoniker": "EventsTask.Application\\Interfaces\\IEventsRepository.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\Interfaces\\IEventsRepository.cs",
+              "RelativeToolTip": "EventsTask.Application\\Interfaces\\IEventsRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T20:36:38.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IPasswordHasher.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\Interfaces\\IPasswordHasher.cs",
+              "RelativeDocumentMoniker": "EventsTask.Application\\Interfaces\\IPasswordHasher.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\Interfaces\\IPasswordHasher.cs",
+              "RelativeToolTip": "EventsTask.Application\\Interfaces\\IPasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T11:04:24.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IRoleService.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\Interfaces\\IRoleService.cs",
+              "RelativeDocumentMoniker": "EventsTask.Application\\Interfaces\\IRoleService.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\Interfaces\\IRoleService.cs",
+              "RelativeToolTip": "EventsTask.Application\\Interfaces\\IRoleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T10:23:46.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "EventsTask.Application\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "EventsTask.Application\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvxEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T09:56:13.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IUsersService.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\Interfaces\\IUsersService.cs",
+              "RelativeDocumentMoniker": "EventsTask.Application\\Interfaces\\IUsersService.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\Interfaces\\IUsersService.cs",
+              "RelativeToolTip": "EventsTask.Application\\Interfaces\\IUsersService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T11:00:03.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "EventMemberService.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\Services\\EventMemberService.cs",
+              "RelativeDocumentMoniker": "EventsTask.Application\\Services\\EventMemberService.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\Services\\EventMemberService.cs",
+              "RelativeToolTip": "EventsTask.Application\\Services\\EventMemberService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T14:03:18.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "RoleService.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\Services\\RoleService.cs",
+              "RelativeDocumentMoniker": "EventsTask.Application\\Services\\RoleService.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\Services\\RoleService.cs",
+              "RelativeToolTip": "EventsTask.Application\\Services\\RoleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T10:23:53.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UsersService.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\Services\\UsersService.cs",
+              "RelativeDocumentMoniker": "EventsTask.Application\\Services\\UsersService.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\Services\\UsersService.cs",
+              "RelativeToolTip": "EventsTask.Application\\Services\\UsersService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T11:00:16.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "EventsTask.Application\\DependencyInjection.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\DependencyInjection.cs",
+              "RelativeToolTip": "EventsTask.Application\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T17:16:48.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Backend\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "EventsTask.Backend\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Backend\\Properties\\launchSettings.json",
+              "RelativeToolTip": "EventsTask.Backend\\Properties\\launchSettings.json",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-08T11:38:56.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "EventMembersController.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Backend\\Controllers\\EventMembersController.cs",
+              "RelativeDocumentMoniker": "EventsTask.Backend\\Controllers\\EventMembersController.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Backend\\Controllers\\EventMembersController.cs",
+              "RelativeToolTip": "EventsTask.Backend\\Controllers\\EventMembersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T19:43:26.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ApiExtensions.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Backend\\Extensions\\ApiExtensions.cs",
+              "RelativeDocumentMoniker": "EventsTask.Backend\\Extensions\\ApiExtensions.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Backend\\Extensions\\ApiExtensions.cs",
+              "RelativeToolTip": "EventsTask.Backend\\Extensions\\ApiExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T14:16:16.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ExceptionHandlerMiddleware.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Backend\\Middlewares\\ExceptionHandlerMiddleware.cs",
+              "RelativeDocumentMoniker": "EventsTask.Backend\\Middlewares\\ExceptionHandlerMiddleware.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Backend\\Middlewares\\ExceptionHandlerMiddleware.cs",
+              "RelativeToolTip": "EventsTask.Backend\\Middlewares\\ExceptionHandlerMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T19:50:38.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Backend\\Program.cs",
+              "RelativeDocumentMoniker": "EventsTask.Backend\\Program.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Backend\\Program.cs",
+              "RelativeToolTip": "EventsTask.Backend\\Program.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAFwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T11:27:42.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "UserEntity.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Domain\\Entities\\UserEntity.cs",
+              "RelativeDocumentMoniker": "EventsTask.Domain\\Entities\\UserEntity.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Domain\\Entities\\UserEntity.cs",
+              "RelativeToolTip": "EventsTask.Domain\\Entities\\UserEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T19:12:08.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "RoleEntity.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Domain\\Entities\\RoleEntity.cs",
+              "RelativeDocumentMoniker": "EventsTask.Domain\\Entities\\RoleEntity.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Domain\\Entities\\RoleEntity.cs",
+              "RelativeToolTip": "EventsTask.Domain\\Entities\\RoleEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T19:12:17.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "EventMemberEntity.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Domain\\Entities\\EventMemberEntity.cs",
+              "RelativeDocumentMoniker": "EventsTask.Domain\\Entities\\EventMemberEntity.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Domain\\Entities\\EventMemberEntity.cs",
+              "RelativeToolTip": "EventsTask.Domain\\Entities\\EventMemberEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T15:00:38.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "EventEntity.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Domain\\Entities\\EventEntity.cs",
+              "RelativeDocumentMoniker": "EventsTask.Domain\\Entities\\EventEntity.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Domain\\Entities\\EventEntity.cs",
+              "RelativeToolTip": "EventsTask.Domain\\Entities\\EventEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T14:59:59.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "JwtOptions.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Infrastructure\\JwtOptions.cs",
+              "RelativeDocumentMoniker": "EventsTask.Infrastructure\\JwtOptions.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Infrastructure\\JwtOptions.cs",
+              "RelativeToolTip": "EventsTask.Infrastructure\\JwtOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T10:52:34.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "JwtProvider.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Infrastructure\\JwtProvider.cs",
+              "RelativeDocumentMoniker": "EventsTask.Infrastructure\\JwtProvider.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Infrastructure\\JwtProvider.cs",
+              "RelativeToolTip": "EventsTask.Infrastructure\\JwtProvider.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIAwwBwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T10:44:43.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Infrastructure\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "EventsTask.Infrastructure\\PasswordHasher.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Infrastructure\\PasswordHasher.cs",
+              "RelativeToolTip": "EventsTask.Infrastructure\\PasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T10:37:21.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "EventEntityConfiguration.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Persistence\\EntityTypeConfigurations\\EventEntityConfiguration.cs",
+              "RelativeDocumentMoniker": "EventsTask.Persistence\\EntityTypeConfigurations\\EventEntityConfiguration.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Persistence\\EntityTypeConfigurations\\EventEntityConfiguration.cs",
+              "RelativeToolTip": "EventsTask.Persistence\\EntityTypeConfigurations\\EventEntityConfiguration.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAUwDAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T16:04:41.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "EventMembersRepository.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Persistence\\Repositories\\EventMembersRepository.cs",
+              "RelativeDocumentMoniker": "EventsTask.Persistence\\Repositories\\EventMembersRepository.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Persistence\\Repositories\\EventMembersRepository.cs",
+              "RelativeToolTip": "EventsTask.Persistence\\Repositories\\EventMembersRepository.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAwwBgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T20:42:39.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "EventsRepository.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Persistence\\Repositories\\EventsRepository.cs",
+              "RelativeDocumentMoniker": "EventsTask.Persistence\\Repositories\\EventsRepository.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Persistence\\Repositories\\EventsRepository.cs",
+              "RelativeToolTip": "EventsTask.Persistence\\Repositories\\EventsRepository.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAUwE0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T19:46:02.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Persistence\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "EventsTask.Persistence\\Repositories\\UserRepository.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Persistence\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "EventsTask.Persistence\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwB8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T10:00:20.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Persistence\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "EventsTask.Persistence\\DbInitializer.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Persistence\\DbInitializer.cs",
+              "RelativeToolTip": "EventsTask.Persistence\\DbInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T20:47:51.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "EventsDbContext.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Persistence\\EventsDbContext.cs",
+              "RelativeDocumentMoniker": "EventsTask.Persistence\\EventsDbContext.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Persistence\\EventsDbContext.cs",
+              "RelativeToolTip": "EventsTask.Persistence\\EventsDbContext.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAqwBsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T16:41:29.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "EventDto.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\Common\\Dtos\\EventDto.cs",
+              "RelativeDocumentMoniker": "EventsTask.Application\\Common\\Dtos\\EventDto.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\Common\\Dtos\\EventDto.cs",
+              "RelativeToolTip": "EventsTask.Application\\Common\\Dtos\\EventDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T14:20:47.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "EventCategory.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Domain\\Enums\\EventCategory.cs",
+              "RelativeDocumentMoniker": "EventsTask.Domain\\Enums\\EventCategory.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Domain\\Enums\\EventCategory.cs",
+              "RelativeToolTip": "EventsTask.Domain\\Enums\\EventCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T15:28:42.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Role.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Domain\\Enums\\Role.cs",
+              "RelativeDocumentMoniker": "EventsTask.Domain\\Enums\\Role.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Domain\\Enums\\Role.cs",
+              "RelativeToolTip": "EventsTask.Domain\\Enums\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T19:26:24.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Event.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Domain\\Models\\Event.cs",
+              "RelativeDocumentMoniker": "EventsTask.Domain\\Models\\Event.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Domain\\Models\\Event.cs",
+              "RelativeToolTip": "EventsTask.Domain\\Models\\Event.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T15:26:06.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "EventMember.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Domain\\Models\\EventMember.cs",
+              "RelativeDocumentMoniker": "EventsTask.Domain\\Models\\EventMember.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Domain\\Models\\EventMember.cs",
+              "RelativeToolTip": "EventsTask.Domain\\Models\\EventMember.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T15:26:25.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Domain\\Models\\User.cs",
+              "RelativeDocumentMoniker": "EventsTask.Domain\\Models\\User.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Domain\\Models\\User.cs",
+              "RelativeToolTip": "EventsTask.Domain\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T09:57:00.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "EventMemberEntityConfiguration.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Persistence\\EntityTypeConfigurations\\EventMemberEntityConfiguration.cs",
+              "RelativeDocumentMoniker": "EventsTask.Persistence\\EntityTypeConfigurations\\EventMemberEntityConfiguration.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Persistence\\EntityTypeConfigurations\\EventMemberEntityConfiguration.cs",
+              "RelativeToolTip": "EventsTask.Persistence\\EntityTypeConfigurations\\EventMemberEntityConfiguration.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACAAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T16:05:00.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "RoleConfiguration.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Persistence\\EntityTypeConfigurations\\RoleConfiguration.cs",
+              "RelativeDocumentMoniker": "EventsTask.Persistence\\EntityTypeConfigurations\\RoleConfiguration.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Persistence\\EntityTypeConfigurations\\RoleConfiguration.cs",
+              "RelativeToolTip": "EventsTask.Persistence\\EntityTypeConfigurations\\RoleConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T19:24:14.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Persistence\\EntityTypeConfigurations\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "EventsTask.Persistence\\EntityTypeConfigurations\\UserConfiguration.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Persistence\\EntityTypeConfigurations\\UserConfiguration.cs",
+              "RelativeToolTip": "EventsTask.Persistence\\EntityTypeConfigurations\\UserConfiguration.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T19:15:53.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Persistence\\Exceptions\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "EventsTask.Persistence\\Exceptions\\NotFoundException.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Persistence\\Exceptions\\NotFoundException.cs",
+              "RelativeToolTip": "EventsTask.Persistence\\Exceptions\\NotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T19:28:19.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "EventsDbContextModelSnapshot.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Persistence\\Migrations\\EventsDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "EventsTask.Persistence\\Migrations\\EventsDbContextModelSnapshot.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Persistence\\Migrations\\EventsDbContextModelSnapshot.cs",
+              "RelativeToolTip": "EventsTask.Persistence\\Migrations\\EventsDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T13:13:58.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "20250216131351_InitialCreate.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Persistence\\Migrations\\20250216131351_InitialCreate.cs",
+              "RelativeDocumentMoniker": "EventsTask.Persistence\\Migrations\\20250216131351_InitialCreate.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Persistence\\Migrations\\20250216131351_InitialCreate.cs",
+              "RelativeToolTip": "EventsTask.Persistence\\Migrations\\20250216131351_InitialCreate.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAgwHsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T13:14:14.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "EventsTask.Persistence.csproj",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Persistence\\EventsTask.Persistence.csproj",
+              "RelativeDocumentMoniker": "EventsTask.Persistence\\EventsTask.Persistence.csproj",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Persistence\\EventsTask.Persistence.csproj",
+              "RelativeToolTip": "EventsTask.Persistence\\EventsTask.Persistence.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-08T16:11:02.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "IEventMemberService.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\Interfaces\\IEventMemberService.cs",
+              "RelativeDocumentMoniker": "EventsTask.Application\\Interfaces\\IEventMemberService.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\Interfaces\\IEventMemberService.cs",
+              "RelativeToolTip": "EventsTask.Application\\Interfaces\\IEventMemberService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T14:02:57.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "CreateEventDto.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\Common\\Dtos\\CreateEventDto.cs",
+              "RelativeDocumentMoniker": "EventsTask.Application\\Common\\Dtos\\CreateEventDto.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\Common\\Dtos\\CreateEventDto.cs",
+              "RelativeToolTip": "EventsTask.Application\\Common\\Dtos\\CreateEventDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T14:21:09.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "EventMemberDto.cs",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\Common\\Dtos\\EventMemberDto.cs",
+              "RelativeDocumentMoniker": "EventsTask.Application\\Common\\Dtos\\EventMemberDto.cs",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\Common\\Dtos\\EventMemberDto.cs",
+              "RelativeToolTip": "EventsTask.Application\\Common\\Dtos\\EventMemberDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T14:22:20.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "EventsTask.Backend.csproj",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Backend\\EventsTask.Backend.csproj",
+              "RelativeDocumentMoniker": "EventsTask.Backend\\EventsTask.Backend.csproj",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Backend\\EventsTask.Backend.csproj",
+              "RelativeToolTip": "EventsTask.Backend\\EventsTask.Backend.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-14T19:19:52.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "EventsTask.Application.csproj",
+              "DocumentMoniker": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\EventsTask.Application.csproj",
+              "RelativeDocumentMoniker": "EventsTask.Application\\EventsTask.Application.csproj",
+              "ToolTip": "E:\\WORK\\Programming\\My Projects\\Projects from VS\\Projects (C#)\\EventsTask.Backend\\EventsTask.Application\\EventsTask.Application.csproj",
+              "RelativeToolTip": "EventsTask.Application\\EventsTask.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-09T14:19:49.399Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

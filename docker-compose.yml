@@ -1,0 +1,30 @@
+version: "3.9"
+networks:
+    events-net:
+        driver: bridge
+services:
+    app:
+        container_name: events-task
+        build:
+            context: .
+            dockerfile: Dockerfile
+        ports:
+            - "80:80"
+        networks: 
+            - events-net
+    postgres_db:
+        container_name: postgres
+        image: postgres:latest
+        environment:
+            POSTGRES_USER: postgres
+            POSTGRES_PASSWORD: some-password
+            POSTGRES_DB: event-task-db
+        ports:
+            - "5432:5432"
+        networks:
+            - events-net
+        volumes:
+            - postgres-data:/var/lib/posgresql/data
+volumes:
+    postgres-data:
+        
