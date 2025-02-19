@@ -16,7 +16,7 @@ namespace EventsTask.Persistence
             var optionsBuilder = new DbContextOptionsBuilder<EventsDbContext>();
         
 
-            optionsBuilder.UseNpgsql("Server=postgres_db;Port=5432;Database=event-task-db;Username=postgres;Password=some-password");
+            optionsBuilder.UseNpgsql("Server=localhost;Port=5432;Database=event-task-db;Username=postgres;Password=some-password");
 
             return new EventsDbContext(optionsBuilder.Options);
         }
