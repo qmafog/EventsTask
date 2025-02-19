@@ -108,6 +108,7 @@ namespace EventsTask.Backend.Controllers
         ///     }
         /// </remarks>
         [HttpPost]
+        //[Authorize(Policy = "AdminPolicy")]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> CreateEvent([FromBody] CreateEventDto createEventDto)
@@ -137,6 +138,7 @@ namespace EventsTask.Backend.Controllers
         ///     }
         /// </remarks>
         [HttpPut]
+        //[Authorize(Policy = "AdminPolicy")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> UpdateEvent([FromBody] UpdateEventDto updateEventDto)
@@ -152,6 +154,7 @@ namespace EventsTask.Backend.Controllers
         /// <response code="204">Event successfully deleted</response>
         /// <response code="404">Event not found</response>
         [HttpDelete("{id}")]
+        //[Authorize(Policy = "AdminPolicy")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<IActionResult> DeleteEvent(Guid id)
@@ -168,6 +171,7 @@ namespace EventsTask.Backend.Controllers
         /// <response code="204">Event successfully updated</response>
         /// <responde code="400">Error uploading image</responde>
         [HttpPost("uploading-image")]
+        //[Authorize(Policy = "AdminPolicy")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> UploadEventImage(Guid id, IFormFile file)
