@@ -3,7 +3,7 @@ using EventsTask.Application.Interfaces;
 using EventsTask.Domain.Entities;
 using EventsTask.Domain.Enums;
 using EventsTask.Domain.Models;
-using EventsTask.Persistence.Exceptions;
+using EventsTask.Application.Common.Exceptions;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;

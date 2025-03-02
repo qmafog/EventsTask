@@ -2,7 +2,7 @@
 using EventsTask.Application.Interfaces;
 using EventsTask.Domain.Entities;
 using EventsTask.Domain.Models;
-using EventsTask.Persistence.Exceptions;
+using EventsTask.Application.Common.Exceptions;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -61,17 +61,18 @@ namespace EventsTask.Persistence.Repositories
     
         }
 
-        public async Task RemoveAsync(Guid eventId, Guid id)
+        public async Task<Guid?> RemoveAsync(Guid eventId, Guid id)
         {
             var eventMemberEntity = await _dbContext.EventMembers.FindAsync(new object[] { id });
 
             if (eventMemberEntity == null)
             {
-                throw new NotFoundException(nameof(EventMemberEntity), id);
+                return null;
             }
 
-            _dbContext.EventMembers.Remove(eventMemberEntity);
+            var result = _dbContext.EventMembers.Remove(eventMemberEntity);
             await _dbContext.SaveChangesAsync();
+            return result.Entity.Id;
         }
     }
 }

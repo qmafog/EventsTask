@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using EventsTask.Application.Common.Dtos;
+using EventsTask.Application.Common.Exceptions;
 using EventsTask.Application.Interfaces;
 using EventsTask.Domain.Models;
 using FluentValidation;
@@ -47,7 +48,12 @@ namespace EventsTask.Application.Services
         {
             var member = await _eventMemberRepository.GetByIdAsync(eventId, memberId);
 
-            return member != null ? _mapper.Map<EventMemberDto>(member) : null;
+            if (member == null)
+            {
+                throw new NotFoundException(nameof(EventMember), memberId);
+            }
+
+            return  _mapper.Map<EventMemberDto>(member);
         }
 
         public async Task<Guid> RegisterMember(RegisterEventMemberDto memberDto)
@@ -78,7 +84,9 @@ namespace EventsTask.Application.Services
 
         public async Task UnregisterMember(Guid eventId, Guid memberId)
         {
-            await _eventMemberRepository.RemoveAsync(eventId, memberId);
+           var deletedId = await _eventMemberRepository.RemoveAsync(eventId, memberId);
+           if (deletedId is null) 
+                throw new NotFoundException(nameof(EventMember), memberId);
         }
     }
 }

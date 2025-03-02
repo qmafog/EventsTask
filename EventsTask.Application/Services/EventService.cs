@@ -55,7 +55,7 @@ namespace EventsTask.Application.Services
         {
             var deletedId = await _eventRepository.DeleteAsync(id);
             if (deletedId is null)
-                throw new NotFoundException(nameof(id), id);
+                throw new NotFoundException(nameof(Event), id);
         }
 
         public async Task<IEnumerable<EventDto>> GetAllEvents()

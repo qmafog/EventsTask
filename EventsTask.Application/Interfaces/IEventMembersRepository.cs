@@ -14,6 +14,6 @@ namespace EventsTask.Application.Interfaces
         Task<IEnumerable<EventMember>> GetByPageAsync(Guid eventId, int page, int pageSize);
         Task<EventMember?> GetByIdAsync(Guid eventId, Guid id);
         Task<Guid> AddAsync(EventMember eventMember);
-        Task RemoveAsync(Guid eventId, Guid id);
+        Task<Guid?> RemoveAsync(Guid eventId, Guid id);
     }
 }

@@ -4,7 +4,7 @@ using EventsTask.Application.Common.Validators;
 using EventsTask.Application.Services;
 using EventsTask.Domain.Enums;
 using EventsTask.Persistence;
-using EventsTask.Persistence.Exceptions;
+using EventsTask.Application.Common.Exceptions;
 using EventsTask.Persistence.Repositories;
 using Shouldly;
 using System;
@@ -92,17 +92,14 @@ namespace Events.Tests.Events
         }
 
         [Fact]
-        public async Task GetMemberById_ShouldReturnNull()
+        public async Task GetMemberById_ShouldThrowNotFoundException()
         {
             // Arrange
             var eventId = Guid.Parse("017C53B7-F5C7-415F-890C-F704897E85AF");
      
-
-            // Act
-            var member = await _eventMemberService.GetMemberById(eventId, Guid.Parse("017C53B7-F5C7-415F-890C-F704897E85AF"));
-
-            // Assert
-            member.ShouldBeNull();
+            // Act & Assert
+            await Should.ThrowAsync<NotFoundException>(() =>
+                _eventMemberService.GetMemberById(eventId, Guid.Parse("017C53B7-F5C7-415F-890C-F704897E85AF")));
         }
 
         [Fact]
