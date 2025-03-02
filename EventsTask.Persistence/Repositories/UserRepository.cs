@@ -2,7 +2,7 @@
 using EventsTask.Domain.Entities;
 using EventsTask.Domain.Enums;
 using EventsTask.Domain.Models;
-using EventsTask.Persistence.Exceptions;
+using EventsTask.Application.Common.Exceptions;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -19,13 +19,13 @@ namespace EventsTask.Persistence.Repositories
         {
             _dbContext = context;
         }
-        public async Task<Guid> AddAsync(string username, string password)
+        public async Task<Guid?> AddAsync(string username, string password)
         {
             var role = await _dbContext.Roles.FindAsync(new object[] { (int)(Role.User) });
 
             if (role is null)
             {
-                throw new NotFoundException(nameof(RoleEntity), (int)(Role.User));
+                return null;
             }
 
             var userEntity = new UserEntity
@@ -50,7 +50,7 @@ namespace EventsTask.Persistence.Repositories
 
             if (userEntity == null)
             {
-                throw new NotFoundException(nameof(UserEntity), username);
+                return null;
             }
 
             return new User

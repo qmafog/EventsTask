@@ -10,7 +10,7 @@ namespace EventsTask.Application.Interfaces
 {
     public interface IUserRepository
     {
-        Task<Guid> AddAsync(string username, string password);
+        Task<Guid?> AddAsync(string username, string password);
         Task<User?> GetByUsername(string username);
         Task<HashSet<Role>> GetUserRoles(Guid userId);
     }

@@ -1,4 +1,5 @@
 ﻿using EventsTask.Application.Interfaces;
+using EventsTask.Application.Common.Exceptions;
 using EventsTask.Domain.Models;
 using System;
 using System.Collections.Generic;
@@ -27,7 +28,11 @@ namespace EventsTask.Application.Services
         {
             var passwordHash = _passwordHasher.Generate(password);
 
-            await _userRepository.AddAsync(userName, passwordHash);
+            var result = await _userRepository.AddAsync(userName, passwordHash);
+            if (result == null)
+            {
+                throw new AuthorizeConfigurationException(nameof(Domain.Enums.Role));
+            }
         }
 
         public async Task<string> Login(string userName, string password)
@@ -36,13 +41,13 @@ namespace EventsTask.Application.Services
 
             if (user == null)
             {
-                Console.WriteLine($"User {userName} not found!");
+                throw new UserVerificationException("Wrong username.");
             }
             var result = _passwordHasher.Verify(password, user.PasswordHash);
 
             if (!result)
             {
-                throw new NotImplementedException();
+                throw new UserVerificationException("Wrong password.");
             }
 
             var userRoles = await _userRepository.GetUserRoles(user.Id);

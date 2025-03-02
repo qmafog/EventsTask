@@ -63,7 +63,7 @@ namespace EventsTask.Backend.Controllers
         /// <response code="200">Event found</response>
       
         [HttpGet("bytitle")]
-        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(EventDto))]
+        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(IEnumerable<EventDto>))]
         public async Task<IActionResult> GetEventsByTitle(string title)
         {
             var events = await _eventService.GetEventsByTitle(title);
@@ -79,7 +79,7 @@ namespace EventsTask.Backend.Controllers
         /// <response code="200">Event found</response>
 
         [HttpGet("bypage")]
-        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(EventDto))]
+        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(IEnumerable<EventDto>))]
         public async Task<IActionResult> GetEventsByPage(int page, int pageSize)
         {
             var events = await _eventService.GetEventsByPage(page, pageSize);
