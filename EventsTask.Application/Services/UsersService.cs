@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using EventsTask.Application.Common.Dtos;
 
 namespace EventsTask.Application.Services
 {
@@ -35,7 +36,7 @@ namespace EventsTask.Application.Services
             }
         }
 
-        public async Task<string> Login(string userName, string password)
+        public async Task<TokenDto> Login(string userName, string password)
         {
             var user = await _userRepository.GetByUsername(userName);
 
@@ -54,9 +55,18 @@ namespace EventsTask.Application.Services
 
             bool isAdmin = userRoles.Contains(Domain.Enums.Role.Admin);
 
-            var token = _jwtProvider.GenerateToken(user, isAdmin);
+            var token = _jwtProvider.GenerateToken(user.Id, isAdmin, true);
 
             return token;
+        }
+        public async Task<TokenDto> RefreshToken(TokenDto tokenDto)
+        {
+            var refreshedTokenDto = await _jwtProvider.RefreshToken(tokenDto);
+            if (refreshedTokenDto == null)
+            {
+                throw new UserVerificationException("Unauthenticated.");
+            }
+            return refreshedTokenDto;
         }
     }
 }

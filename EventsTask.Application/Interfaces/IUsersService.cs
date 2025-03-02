@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EventsTask.Application.Common.Dtos;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,7 @@ namespace EventsTask.Application.Interfaces
     {
         Task Register(string userName, string password);
 
-        Task<string> Login(string userName, string password);
+        Task<TokenDto> Login(string userName, string password);
+        Task<TokenDto> RefreshToken(TokenDto token);
     }
 }

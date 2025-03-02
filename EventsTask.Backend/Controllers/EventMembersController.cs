@@ -39,7 +39,7 @@ namespace EventsTask.Backend.Controllers
         ///     }
         /// </remarks>
         [HttpPost]
-        //[Authorize(Policy = "UserPolicy")]
+        //[Authorize(Roles = "User")]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> RegisterMember(Guid eventId, [FromBody] RegisterEventMemberDto memberDto)
@@ -55,7 +55,7 @@ namespace EventsTask.Backend.Controllers
         /// <returns>List of participants.</returns>
         /// <response code="200">Returns the list of participants</response>
         [HttpGet]
-        //[Authorize(Policy = "AdminPolicy")]
+        //[Authorize(Roles = "Admin")]
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(IEnumerable<EventMemberDto>))]
         public async Task<IActionResult> GetEventMembers(Guid eventId)
         {
@@ -72,7 +72,7 @@ namespace EventsTask.Backend.Controllers
         /// <response code="200">Participant found</response>
         /// <response code="404">Participant not found</response>
         [HttpGet("{memberId}")]
-        //[Authorize(Policy = "AdminPolicy")]
+        //[Authorize(Roles = "Admin")]
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(EventMemberDto))]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<IActionResult> GetMemberById(Guid eventId, Guid memberId)
@@ -90,7 +90,7 @@ namespace EventsTask.Backend.Controllers
         /// <response code="204">Participant successfully removed</response>
         /// <response code="404">Participant not found</response>
         [HttpDelete("{memberId}")]
-        //[Authorize(Policy = "UserPolicy")]
+        //[Authorize(Roles = "User")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<IActionResult> UnregisterMember(Guid eventId, Guid memberId)

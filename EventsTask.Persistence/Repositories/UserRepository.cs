@@ -76,5 +76,35 @@ namespace EventsTask.Persistence.Repositories
                     .Select(r => (Role)r.Id)
                     .ToHashSet();
         }
+
+        public  void UpdateRefreshToken(Guid id, string refreshToken, DateTime? expires)
+        {
+            var user = _dbContext.Users
+                .FirstOrDefault(u => u.Id == id);
+
+            
+            if (user != null)
+            {
+                var refreshexp = user.RefreshTokenExpiryTime;
+                user.RefreshToken = refreshToken;
+                user.RefreshTokenExpiryTime = expires is null ? refreshexp : expires.Value;
+            }
+
+            _dbContext.SaveChanges();
+        }
+
+        public async Task<UserEntity?> GetById(Guid id)
+        {
+            var userEntity = await _dbContext.Users
+                .AsNoTracking()
+                .FirstOrDefaultAsync(u => u.Id == id);
+
+            if (userEntity == null)
+            {
+                return null;
+            }
+
+            return userEntity;
+        }
     }
 }

@@ -36,18 +36,7 @@ namespace EventsTask.Backend.Extensions
                     };
                 });
 
-            services.AddAuthorization(options =>
-            {
-                options.AddPolicy("AdminPolicy", policy =>
-                {
-                    policy.RequireClaim("UserId");
-                    policy.RequireClaim("Admin", "True");           
-                });
-                options.AddPolicy("UserPolicy", policy =>
-                {
-                    policy.RequireClaim("UserId");
-                });
-            });
+            services.AddAuthorization();
         }
     }
 }

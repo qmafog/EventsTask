@@ -1,4 +1,5 @@
-﻿using EventsTask.Domain.Models;
+﻿using EventsTask.Application.Common.Dtos;
+using EventsTask.Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,7 @@ namespace EventsTask.Application.Interfaces
 {
     public interface IJwtProvider
     {
-        string GenerateToken(User user, bool isAdmin);
+        Task<TokenDto?> RefreshToken(TokenDto token);
+        TokenDto GenerateToken(Guid userId, bool isAdmin, bool populateExp);
     }
 }

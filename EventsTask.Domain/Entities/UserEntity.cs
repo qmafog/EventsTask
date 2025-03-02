@@ -12,5 +12,7 @@ namespace EventsTask.Domain.Entities
         public string UserName { get; set; } = null!;
         public string PasswordHash { get; set; } = null!;
         public IEnumerable<RoleEntity> Roles { get; set; } = new List<RoleEntity>();
+        public string? RefreshToken { get; set; }
+        public DateTime RefreshTokenExpiryTime { get; set; } = DateTime.UtcNow;
     }
 }

@@ -1,4 +1,5 @@
-﻿using EventsTask.Domain.Enums;
+﻿using EventsTask.Domain.Entities;
+using EventsTask.Domain.Enums;
 using EventsTask.Domain.Models;
 using System;
 using System.Collections.Generic;
@@ -12,6 +13,8 @@ namespace EventsTask.Application.Interfaces
     {
         Task<Guid?> AddAsync(string username, string password);
         Task<User?> GetByUsername(string username);
+        Task<UserEntity?> GetById(Guid id);
         Task<HashSet<Role>> GetUserRoles(Guid userId);
+        void UpdateRefreshToken(Guid id, string refreshToken, DateTime? expires);
     }
 }
