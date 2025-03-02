@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using EventsTask.Application.Common.Exceptions;
 using EventsTask.Application.Common.Dtos;
 using EventsTask.Application.Interfaces;
 using EventsTask.Domain.Entities;
@@ -52,7 +53,9 @@ namespace EventsTask.Application.Services
 
         public async Task DeleteEvent(Guid id)
         {
-            await _eventRepository.DeleteAsync(id);
+            var deletedId = await _eventRepository.DeleteAsync(id);
+            if (deletedId is null)
+                throw new NotFoundException(nameof(id), id);
         }
 
         public async Task<IEnumerable<EventDto>> GetAllEvents()
@@ -73,7 +76,12 @@ namespace EventsTask.Application.Services
         {
             var eventModel = await _eventRepository.GetByIdAsync(id);
 
-            return eventModel != null ? _mapper.Map<EventDto>(eventModel) : null;
+            if (eventModel == null)
+            {
+                throw new NotFoundException(nameof(Event), id);
+            }
+
+            return _mapper.Map<EventDto>(eventModel);
         }
 
         public async Task<IEnumerable<EventDto>> GetEventsByTitle(string title)

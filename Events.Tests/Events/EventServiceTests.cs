@@ -11,7 +11,7 @@ using EventsTask.Application.Common.Dtos;
 using EventsTask.Domain.Enums;
 using Shouldly;
 using EventsTask.Application.Common.Validators;
-using EventsTask.Persistence.Exceptions;
+using EventsTask.Application.Common.Exceptions;
 
 namespace Events.Tests.Events
 {
@@ -58,14 +58,12 @@ namespace Events.Tests.Events
         }
 
         [Fact]
-        public async Task GetEventById_ShouldReturnNull()
+        public async Task GetEventById_ShouldThrowNotFoundException()
         {
-  
-            // Act
-            var result = await _eventService.GetEventById(Guid.Parse("6C13F141-9FBC-4DED-9D54-AC3040F33075"));
 
-            // Assert
-            result.ShouldBeNull();
+            // Act & Assert
+            await Should.ThrowAsync<NotFoundException>(() => _eventService.GetEventById(Guid.Parse("6C13F141-9FBC-4DED-9D54-AC3040F33075")));
+      
    
         }
 
@@ -118,7 +116,7 @@ namespace Events.Tests.Events
         }
 
         [Fact]
-        public async Task UpdateEvent_ShouldThrowNotFoundException()
+        public async Task UpdateEvent_ShouldNotUpdate()
         {
             // Arrange
             var updateEventDto = new UpdateEventDto
@@ -133,8 +131,12 @@ namespace Events.Tests.Events
                 IsCompleted = true
             };
 
-            // Act & Assert
-            await Should.ThrowAsync<NotFoundException>(() => _eventService.UpdateEvent(updateEventDto));
+            // Act
+            await _eventService.UpdateEvent(updateEventDto);
+            var attemptedUpdateEvent = await _context.Events.FindAsync(updateEventDto.Id);
+
+            // Assert
+            attemptedUpdateEvent.ShouldBeNull();
         }
 
         [Fact]

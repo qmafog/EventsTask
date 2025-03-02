@@ -14,6 +14,6 @@ namespace EventsTask.Application.Interfaces
         Task<IEnumerable<Event>> FilterEventsAsync(DateTime? date, string? location, EventCategory? category);
         Task<Guid> AddAsync(Event eventModel);
         Task UpdateAsync(Event eventModel);
-        Task DeleteAsync(Guid id);
+        Task<Guid?> DeleteAsync(Guid id);
     }
 }

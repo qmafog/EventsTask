@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata.Ecma335;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -34,17 +35,18 @@ namespace EventsTask.Persistence.Repositories
             return result.Entity.Id;
         }
 
-        public async Task DeleteAsync(Guid id)
+        public async Task<Guid?> DeleteAsync(Guid id)
         {
             var eventEntity = await _dbContext.Events.FindAsync(id);
      
             if (eventEntity == null)
             {
-                throw new NotFoundException(nameof(EventEntity), id);
+                return null;
             }
 
-            _dbContext.Events.Remove(eventEntity);
+            var result = _dbContext.Events.Remove(eventEntity);
             await _dbContext.SaveChangesAsync();
+            return result.Entity.Id;
         }
 
         public async Task<IEnumerable<Event>> FilterEventsAsync(DateTime? date, string? location, EventCategory? category)
@@ -95,15 +97,14 @@ namespace EventsTask.Persistence.Repositories
 
         public async Task UpdateAsync(Event eventModel)
         {
-            var eventEntity = await _dbContext.Events.FirstOrDefaultAsync(e => e.Id == eventModel.Id);
+            var eventEntity = await _dbContext.Events
+                .FirstOrDefaultAsync(e => e.Id == eventModel.Id);
 
-            if (eventEntity == null)
+            if (eventEntity != null)
             {
-                throw new NotFoundException(nameof(EventEntity), eventModel.Id);
+                _mapper.Map(eventModel, eventEntity);
             }
-
-            _mapper.Map(eventModel, eventEntity);
-
+           
             await _dbContext.SaveChangesAsync();
         }
 
