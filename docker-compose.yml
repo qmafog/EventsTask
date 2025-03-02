@@ -12,6 +12,8 @@ services:
             - "8080:8080"
         networks: 
             - events-net
+        depends_on:
+            - postgres_db
     postgres_db:
         container_name: postgres
         image: postgres:latest
